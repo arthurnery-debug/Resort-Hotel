@@ -28,13 +28,15 @@ body{
   font-size: 1.5rem;
 }
 .logo img{
+     width: 55px;
     height: 45px;
+
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 120px;
+  gap: 70px;
 }
 
 .nav-links a {
@@ -51,27 +53,6 @@ body{
   color: #fff;
   cursor: pointer;
 }
-
-/* RESPONSIVO */
-@media (max-width: 768px) {
-  .nav-links {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background: #222;
-    flex-direction: column;
-    width: 200px;
-    display: none;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}
 h1{
     font-family: "Poppins";
     color:#f9f9e7;
@@ -79,10 +60,41 @@ h1{
     text-shadow: #777777 2px 2px;
     font-size: 45px;
     margin: 0;
+    padding: 0;
     
 }
 #main-content {
+  text-align: center;
+  width: 15%;
+  height: 150px;
     position: relative;
     left: 15%;
     top:120px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .nav-links {
+    position:absolute;
+    top:65px;
+    right:0 ;
+    background: #2222228c;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    gap: 120px;
+  }
+  .nav-links li {
+   padding: 5% 15%;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block; 
+  }
+  h1{
+    display: none;
+  }
 }
