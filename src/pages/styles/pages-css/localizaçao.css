@@ -1,0 +1,152 @@
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .nav-links {
+    position:absolute;
+    top:65px;
+    right:0 ;
+    background: #2222228c;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    gap: 120px;
+  }
+  .nav-links li {
+   padding: 5% 15%;
+   box-sizing: border-box;
+  }
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block; 
+  }
+  h1{
+    display: none;
+  }
+}
+html{
+  max-width:1920px;
+  max-height: 1080px;
+}
+
+body{ 
+    height:auto ;
+    margin: 0;
+    padding: 0;
+    background:url(images/sunbeds.jpg);
+     background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#container{
+    width: 100%;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #50504557;
+  padding: 15px 20px;
+}
+
+.logo {
+  color: #505045;
+  font-size: 1.5rem;
+}
+.logo img{
+     width: 55px;
+    height: 45px;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+}
+
+.nav-links a {
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins";
+  
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  color:#161613;
+  cursor: pointer;
+}
+main{
+    width: 100%;
+}
+#maps{
+    position: relative;
+    width:40%;
+     top: 100px;
+    left: 150px;
+    
+}
+#maps iframe{
+    border-radius: 5px;
+    background-color: #2a3548;
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+#info{
+    width: 30%;
+    height: 670px;
+    position: relative;
+    top: -378px;
+    right: -1200px;
+    text-align: center;
+    background-color: #2a3548;background-color: #2a3548;
+    border-radius: 5px;
+
+}
+#info h1{
+  padding-top: 15px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: "poppins";
+  color:white;
+}
+#info ul {
+list-style-type: none;
+height: 68%;
+display: flex;
+flex-direction: column;
+padding: 0;
+}
+#info ul li{
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+text-transform: uppercase;
+font-family: "poppins";
+color: white;
+}
+#contatos{
+  display: flex; 
+  justify-content: center;
+  gap:10px;
+}
+#contatos p{
+  color: white;
+  font-family: "poppins";
+}
