@@ -1,0 +1,63 @@
+
+#quartos ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#quartos ul li{
+     list-style-type: none;
+     display: flex;
+     background-color: #2a3548;
+     padding: 15px;
+     box-sizing: border-box;
+     border-radius: 3px;
+     width: 45%;
+     color: white;
+}
+#quartos ul li img{
+    height: 250px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+
+.quartos{
+    display: flex;
+    flex-direction: column;
+    height: 265px;
+    
+}
+.quartos p {
+text-align: center;
+height: 170px;
+}
+.quartos a{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin: auto auto;
+}
+.quartos a:hover{
+    color: #2a3548;
+    background-color: #ffffff;
+}
+.interaçao-quartos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:55px;
+}
+.interaçao-quartos i{
+    margin: auto auto;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+}
+.interaçao-quartos i:hover{
+    color: #2a3548;
+    background-color: white;
+}

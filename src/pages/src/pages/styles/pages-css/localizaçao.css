@@ -1,0 +1,74 @@
+
+main{
+    width: 100%;
+}
+#maps{
+    position: relative;
+    width:40%;
+     top: 100px;
+    left: 150px;
+    
+}
+#maps iframe{
+    border-radius: 5px;
+    background-color: #2a3548;
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+#info{
+    width: 30%;
+    height: 670px;
+    position: relative;
+    top: -378px;
+    right: -1200px;
+    text-align: center;
+    background-color: #2a3548;
+    border-radius: 5px;
+
+}
+#info h1{
+  padding-top: 15px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: "poppins";
+  color:white;
+}
+#info ul {
+list-style-type: none;
+height: 68%;
+display: flex;
+flex-direction: column;
+padding: 0;
+}
+#info ul li{
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: center;
+text-transform: uppercase;
+font-family: "poppins";
+color: white;
+}
+#contatos{
+  display: flex; 
+  justify-content: center;
+  gap:70px;
+}
+#contatos p{
+  color: white;
+  font-family: "poppins";
+}
+#contatos a i{
+  color: white;
+  text-align: center;
+}
+#contatos a i:hover{
+  transition-duration: 0.2s;
+ padding: 10px;
+ width: 45px;
+ box-sizing: border-box;
+  border-radius: 100px;
+  background-color: white;
+  color: #2a3548;
+}
