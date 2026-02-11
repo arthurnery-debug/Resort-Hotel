@@ -144,9 +144,22 @@ color: white;
 #contatos{
   display: flex; 
   justify-content: center;
-  gap:10px;
+  gap:70px;
 }
 #contatos p{
   color: white;
   font-family: "poppins";
+}
+#contatos a i{
+  color: white;
+  text-align: center;
+}
+#contatos a i:hover{
+  transition-duration: 0.2s;
+ padding: 10px;
+ width: 45px;
+ box-sizing: border-box;
+  border-radius: 100px;
+  background-color: white;
+  color: #2a3548;
 }
